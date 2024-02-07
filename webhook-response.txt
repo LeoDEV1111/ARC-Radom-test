@@ -1,0 +1,180 @@
+// for email invoice subscription
+{
+  id: 'c7027630-e00e-43e6-a02a-671cf696a51b',
+  webhookId: 'a9bdec69-456e-4f17-8a28-e68727335bbd',
+  eventType: 'managedRecurringPayment',
+  eventData: {
+    managedRecurringPayment: {
+      paymentMethod: {
+        network: 'SepoliaTestnet',
+        token: null,
+        discountPercentOff: null
+      },
+      amount: '0.002318598761111498',
+      alternativeMethodPayments: null,
+      transactions: null,
+      discountCodeId: null,
+      discountAmount: null
+    }
+  },
+  radomData: {
+    paymentLink: {
+      paymentLinkId: '3cee3f46-2b04-4c6a-98e1-3d13a586dfcd',
+      paymentLinkOrderId: '767dd936-9fcc-4b1e-b8cb-270fb0a8b306',
+      inputData: [
+        { label: 'wallet address', value: '0x1234' },
+        { label: 'Email address', value: 'oleksandr.leodev@gmail.com' }
+      ]
+    }
+  }
+}
+{
+  id: '71257da5-bef1-4bc0-87ec-d53f0bfa8e98',
+  webhookId: 'a9bdec69-456e-4f17-8a28-e68727335bbd',
+  eventType: 'newSubscription',
+  eventData: {
+    newSubscription: {
+      subscriptionId: '9f747375-cd29-4136-a0c4-43dfe60cfa02',
+      subscriptionType: {
+        emailInvoiceSubscription: { emailAddress: 'oleksandr.leodev@gmail.com' }
+      },
+      network: 'SepoliaTestnet',
+      token: null,
+      amount: '0.1000',
+      currency: 'USD',
+      period: 'daily',
+      periodCustomDuration: null,
+      createdAt: '2024-02-07T09:11:32.668171Z',
+      tags: { productId: '80e551a6-5710-4789-84bb-1dcd38bea7c2' }
+    }
+  },
+  radomData: {
+    paymentLink: {
+      paymentLinkId: '3cee3f46-2b04-4c6a-98e1-3d13a586dfcd',
+      paymentLinkOrderId: '767dd936-9fcc-4b1e-b8cb-270fb0a8b306'
+    }
+  }
+}
+{
+  id: '74a99f78-5ba9-468b-ac04-cae4d4fb0eb7',
+  webhookId: 'a9bdec69-456e-4f17-8a28-e68727335bbd',
+  eventType: 'subscriptionPaymentReminder',
+  eventData: {
+    subscriptionPaymentReminder: {
+      subscriptionId: '9f747375-cd29-4136-a0c4-43dfe60cfa02',
+      subscriptionType: {
+        emailInvoiceSubscription: { emailAddress: 'oleksandr.leodev@gmail.com' }
+      },
+      network: 'SepoliaTestnet',
+      token: null,
+      amount: '0.1000',
+      currency: 'USD',
+      period: 'daily',
+      periodCustomDuration: null,
+      createdAt: '2024-02-07T09:11:32.668171Z',
+      tags: { productId: '80e551a6-5710-4789-84bb-1dcd38bea7c2' },
+      radomData: null
+    }
+  },
+  radomData: null
+}
+{
+  id: '4a60e8d0-2d03-491e-ba42-235d772fcea6',
+  webhookId: 'a9bdec69-456e-4f17-8a28-e68727335bbd',
+  eventType: 'subscriptionCancelled',
+  eventData: {
+    subscriptionCancelled: {
+      subscriptionId: '9f747375-cd29-4136-a0c4-43dfe60cfa02',
+      subscriptionType: {
+        emailInvoiceSubscription: { emailAddress: 'oleksandr.leodev@gmail.com' }
+      },
+      network: 'SepoliaTestnet',
+      token: null,
+      amount: '0.1000',
+      currency: 'USD',
+      period: 'daily',
+      periodCustomDuration: null,
+      createdAt: '2024-02-07T09:11:32.668171Z',
+      cancelledAt: '2024-02-07T09:14:07.975169169Z',
+      tags: { productId: '80e551a6-5710-4789-84bb-1dcd38bea7c2' }
+    }
+  },
+  radomData: null
+}
+
+
+// for auto renew subscription
+
+alternativeMethodPayments: null,
+      transactions: null,
+      discountCodeId: null,
+      discountAmount: null
+    }
+  },
+  radomData: {
+    paymentLink: {
+      paymentLinkId: '80f8dd1c-d3f9-46e0-b3b7-1797d3335d16',
+      paymentLinkOrderId: '58d20238-ee10-44ae-8482-cafae8d0e457'
+    }
+  }
+}
+{
+  id: '1790d2ef-9fdf-4de3-8844-727ed9965cdf',
+  webhookId: '85faceff-cdbb-4372-9277-462c52aa6e6f',
+  eventType: 'newSubscription',
+  eventData: {
+    newSubscription: {
+      subscriptionId: 'db576ba5-deb8-4f43-94f8-af4d68b5bbb2',
+      subscriptionType: {
+        automatedEVMSubscription: {
+          buyerAddress: '0x27ec5a59d3626e4dca8bf99f905ef6245823b22a',
+          subscriptionContractAddress: '0x87Fcf739aEe21FAb3b99121fA4f2D7bF243f9F15',
+          recommendedAllowanceDuration: null,
+          emailAddress: 'petarvtech@gmail.com'
+        }
+      },
+      network: 'BNB',
+      token: '0x55d398326f99059ff775485246999027b3197955',
+      amount: '0',
+      currency: 'USD',
+      period: 'daily',
+      periodCustomDuration: null,
+      createdAt: '2024-02-07T10:05:54.320052Z',
+      tags: { productId: '6f6ed3ef-69d4-4419-b5c9-6955dc9a2ff2' }
+    }
+  },
+  radomData: {
+    paymentLink: {
+      paymentLinkId: '80f8dd1c-d3f9-46e0-b3b7-1797d3335d16',
+      paymentLinkOrderId: '58d20238-ee10-44ae-8482-cafae8d0e457'
+    }
+  }
+}
+{
+  id: 'f351046f-e886-4d8c-ad34-3de90ab75b86',
+  webhookId: '85faceff-cdbb-4372-9277-462c52aa6e6f',
+  eventType: 'subscriptionPaymentReminder',
+  eventData: {
+    subscriptionPaymentReminder: {
+      subscriptionId: 'db576ba5-deb8-4f43-94f8-af4d68b5bbb2',
+      subscriptionType: {
+        automatedEVMSubscription: {
+          buyerAddress: '0x27ec5a59d3626e4dca8bf99f905ef6245823b22a',
+          subscriptionContractAddress: '0x87Fcf739aEe21FAb3b99121fA4f2D7bF243f9F15',
+          recommendedAllowanceDuration: null,
+          emailAddress: 'petarvtech@gmail.com'
+        }
+      },
+      network: 'BNB',
+      token: '0x55d398326f99059ff775485246999027b3197955',
+      amount: '0',
+      currency: 'USD',
+      period: 'daily',
+      periodCustomDuration: null,
+      createdAt: '2024-02-07T10:05:54.320052Z',
+      tags: { productId: '6f6ed3ef-69d4-4419-b5c9-6955dc9a2ff2' },
+      radomData: null
+    }
+  },
+  radomData: null
+}
